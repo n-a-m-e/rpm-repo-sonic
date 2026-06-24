@@ -19,6 +19,6 @@ jobs:
       source-git: https://github.com/n-a-m-e/rpm-app-sonic.git
       build-script: build.sh
       targets: |
-        openmandriva-rolling-x86_64
+        openmandriva-cooker-x86_64
       rebuild-trigger: |
         git sonic-app https://github.com/n-a-m-e/rpm-app-sonic.git main
