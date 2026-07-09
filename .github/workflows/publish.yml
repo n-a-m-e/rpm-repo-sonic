@@ -15,7 +15,7 @@ jobs:
     uses: n-a-m-e/linux-package-build-publisher/.github/workflows/publish.yml@main
     with:
       package-type: rpm
-      cache-mode: debug
+      cache-mode: off
       app-id: sonicde
       source-git: https://github.com/n-a-m-e/rpm-app-sonic.git
       build-script: build.sh
